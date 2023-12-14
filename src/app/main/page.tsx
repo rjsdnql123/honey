@@ -1,3 +1,9 @@
+import BottomNavigation from '@/component/BottomNavigation/BottomNavigation';
+
 export default function Page() {
-  return <div>main </div>;
+  return (
+    <main>
+      <BottomNavigation />
+    </main>
+  );
 }
