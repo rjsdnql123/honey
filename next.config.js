@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  compiler: {
+    emotion: true,
+  },
+};
 
 // const stylexPlugin = require('@stylexjs/nextjs-plugin');
 

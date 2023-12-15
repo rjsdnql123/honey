@@ -22,6 +22,7 @@ export default function Page() {
       {/* <div {...stylex.props(styles.h1, styles.host)}>gffgfg</div> */}
       <Button color='yellow'>Button</Button>
       {/* <BottomNavigation /> */}
+      <div>gd</div>
     </main>
   );
 }

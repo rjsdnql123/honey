@@ -25,15 +25,15 @@
     "react",
     "@typescript-eslint",
     "prettier",
-    "simple-import-sort",
-    "@stylexjs"
+    "simple-import-sort"
+    // "@stylexjs"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error",
-    "@stylexjs/valid-styles": ["error"]
+    "@typescript-eslint/no-explicit-any": "error"
+    // "@stylexjs/valid-styles": ["error"]
   }
 }
