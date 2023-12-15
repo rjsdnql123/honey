@@ -1,19 +1,27 @@
-'use client';
+import { Button } from '@/component/BaseButton/BaseButton';
 
-import styled from '@emotion/styled';
+// const styles = stylex.create({
+//   host: {
+//     // color: [componentVars.color],
+//   },
+//   h1: {
+//     fontFamily: 'system-ui, sans-serif',
+//     fontSize: '2rem',
+//   },
+//   p: {
+//     fontFamily: 'system-ui, sans-serif',
+//     fontSize: '1rem',
+//     marginBlock: 16,
+//     lineHeight: 1.4,
+//   },
+// });
 
-import BottomNavigation from '@/component/BottomNavigation/BottomNavigation';
-
-const Container = styled.div`
-  width: 100%;
-  background: red;
-`;
 export default function Page() {
   return (
     <main>
-      <Container>gd</Container>
-
-      <BottomNavigation />
+      {/* <div {...stylex.props(styles.h1, styles.host)}>gffgfg</div> */}
+      <Button color='yellow'>Button</Button>
+      {/* <BottomNavigation /> */}
     </main>
   );
 }
