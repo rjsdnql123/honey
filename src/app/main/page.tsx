@@ -1,4 +1,4 @@
-import { Button } from '@/component/BaseButton/BaseButton';
+import { Button } from '@/component/BaseButton/index';
 
 // const styles = stylex.create({
 //   host: {

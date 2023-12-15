@@ -4,7 +4,7 @@ import { ButtonStyleProps } from './type';
 export const ButtonStyle = styled.button<ButtonStyleProps>`
   /*
     BaseButton Base Style
-*/
+  */
   all: unset;
   appearance: none;
   display: flex;
