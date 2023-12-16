@@ -1,4 +1,5 @@
 import { Button } from '@/component/BaseButton/index';
+import { BottomNavigation } from '@/component/BottomNavigation';
 
 // const styles = stylex.create({
 //   host: {
@@ -21,8 +22,7 @@ export default function Page() {
     <main>
       {/* <div {...stylex.props(styles.h1, styles.host)}>gffgfg</div> */}
       <Button color='yellow'>Button</Button>
-      {/* <BottomNavigation /> */}
-      <div>gd</div>
+      <BottomNavigation></BottomNavigation>
     </main>
   );
 }
